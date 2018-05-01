@@ -1,0 +1,40 @@
+#[macro_use]
+extern crate emojicons;
+
+fn main() {
+    println!("{}, smile,", emoji!("smile"));
+    println!("{}, smiley,", emoji!("smiley"));
+    println!("{}, grinning,", emoji!("grinning"));
+    println!("{}, blush,", emoji!("blush"));
+    println!("{}, relaxed,", emoji!("relaxed"));
+    println!("{}, wink,", emoji!("wink"));
+    println!("{}, heart_eyes,", emoji!("heart_eyes"));
+    println!("{}, kissing_heart,", emoji!("kissing_heart"));
+    println!("{}, kissing_closed_eyes,", emoji!("kissing_closed_eyes"));
+    println!("{}, kissing,", emoji!("kissing"));
+    println!("{}, kissing_smiling_eyes,", emoji!("kissing_smiling_eyes"));
+    println!("{}, stuck_out_tongue_winking_eye,", emoji!("stuck_out_tongue_winking_eye"));
+    println!("{}, stuck_out_tongue_closed_eyes,", emoji!("stuck_out_tongue_closed_eyes"));
+    println!("{}, stuck_out_tongue,", emoji!("stuck_out_tongue"));
+    println!("{}, flushed,", emoji!("flushed"));
+    println!("{}, grin,", emoji!("grin"));
+    println!("{}, pensive,", emoji!("pensive"));
+    println!("{}, relieved,", emoji!("relieved"));
+    println!("{}, unamused,", emoji!("unamused"));
+    println!("{}, disappointed,", emoji!("disappointed"));
+    println!("{}, persevere,", emoji!("persevere"));
+    println!("{}, cry,", emoji!("cry"));
+    println!("{}, joy,", emoji!("joy"));
+    println!("{}, sob,", emoji!("sob"));
+    println!("{}, sleepy,", emoji!("sleepy"));
+    println!("{}, disappointed_relieved,", emoji!("disappointed_relieved"));
+    println!("{}, cold_sweat,", emoji!("cold_sweat"));
+    println!("{}, sweat_smile,", emoji!("sweat_smile"));
+    println!("{}, sweat,", emoji!("sweat"));
+    println!("{}, weary,", emoji!("weary"));
+    println!("{}, tired_face,", emoji!("tired_face"));
+    println!("{}, fearful,", emoji!("fearful"));
+    println!("{}, scream,", emoji!("scream"));
+    println!("{}, angry,", emoji!("angry"));
+    println!("{}, rage,", emoji!("rage"));
+}
